@@ -1,36 +1,5 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<html>
-    <head>
-        <title>Fallen Leaf</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="{% static 'blog/styles.css' %}" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+{% extends "blog/layout.html" %}
 
-    </head>
-
-    <body>
-        <nav>
-            <div class="nav-hero">
-                <div>
-                    <img class="logo" src="static\Images\Logo Style Guide Top.jpg" >
-                </div>
-                <div style="padding-right: 33px;">
-                    <p1 class="para">Home</p1>
-                </div>
-                <div style="padding-right: 33px;">
-                    <p1 class="para">About</p1>
-                </div>
-                <div style="padding-right: 33px;">
-                    <p1 class="para">Trending Blogs</p1>
-                </div>
-                <div>
-                    <p1 class="para">Contact</p1>
-                </div>
-                <button class="nav-button">Login</button>
-                <button class="nav-button" id="gs">Get started</button>
-            </div>
-        </nav> 
+{% block body %}
+<img src="static\Images\Sign up Page.png">
+{% endblock %}
