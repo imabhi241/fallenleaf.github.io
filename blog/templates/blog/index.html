@@ -1,0 +1,73 @@
+{% extends "blog/layout.html" %}
+    {% block body %}
+        <div class="hero">
+            <div class="hero-text">
+                <h1 style="color: white;
+                font-weight:bold;
+                font-size:56px ;
+                padding: 218px 323px 0px 323px ;">A simple solution for Climatic Crisis.</h1>
+                <p style="color:white; font-weight:normal; font: 18px;padding:0px 323px 0px 323px">Write engaging Blogs and create awareness among the readers about waste management and global warming, in return earn coins.
+                    Use them to collect Free Plant and Gardening Equipments.</p>
+            </div>
+            <div style="display: flex; justify-content:center;">
+                <button style="border-radius:8px;padding:24px 36px; color:#136F63;border:1px solid white;"><a href="{%url 'signup'%}" style="text-decoration: none;color:#136F63">Get Started</a></button>
+                <button style="margin-left: 24px;border-radius:8px;padding:24px 36px; border:2px solid #136F63; color:white; background-color:transparent"><a href="{% url 'about' %}" style="text-decoration: none;color:white">Know More</a></button>
+            </div>
+        </div>
+        <div class="mid">
+            <div style="text-align:center;margin-top:150px" >
+                <h1 style="color:#136F63">Earn coins by writing blogs, and get Free Plants!</h1>
+                <p style="color:#136F63;font:18px" >Show case your writing skills to everyone and encourage people to help the world fight climate change and pollution. </p>
+            </div>
+        </div>
+
+
+        <div class="lower-first" style="margin-top: 54.63px;">
+            <div class="one">
+                <img src="static/Images/o98dSn9UB 1.png" height="352px" width="429px">
+                <h2>Write Engaging Blogs </h2>
+                <p>Create awareness about Environment Protection and help us improve this world for better living.</p><p>Learn More</p>
+            </div>
+            <div style="margin-left: 168.76px;">
+                <div class="two">
+                    <div style="display:flex">
+                        <div>
+                            <h2>Earn Coins</h2><p>The more people like the blog the more coins you will get and use them to Redeem Free Plants.</p><p>Learn More</p>
+                        </div>
+                        <div>
+                            <img src="static/Images/Group 39533.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="three">
+                    <div style="display:flex">
+                        <div>
+                            <h2>Redeem free plants using coins </h2><p>All coins can be used to Redeem plants and Agriculture equipments.</p><p>Learn More</p>
+                        </div>
+                        <div>
+                            <img src="static/Images/Group 39534.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="lower-second" style="display:flex;margin-left:32.88px; margin-top:180px; color:#136F63">
+            <div style="display:flex;align-items: center;justify-content:center">
+                <div>
+                    <h2>Help us save our ONLY Earth! </h2>
+                    <ul>
+                        <li>Create Blogs with us and we will help you save Environment.</li>
+                        <li>It's a high time for all of us  to come together.</li>
+                        <li>Write a Blog and inspire others.</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <img src="static\Images\unsplash_nzUTgSH3gfo.png" style="margin-left: 50px;">
+            </div>
+
+        </div>
+        <img src="static\Images\Group 39516.png" height="389" width="1300">
+    {% endblock %}

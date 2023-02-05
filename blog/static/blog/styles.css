@@ -1,0 +1,64 @@
+body{
+    margin: 0px 110px 0px 110px;
+    font-family: 'DM Sans', sans-serif;
+}
+.logo{
+    display: block;
+    height: 36.55px;
+    width: 258.31px;
+    margin:0px 395px 0px 0px;
+
+}
+.nav-hero,.para{
+    align-items: center;
+    display: flex;
+    margin: 30.85px 0px 37px 0px;
+    color: #136F63;
+    font-weight: medium;
+    font-size: 18px;
+}
+.nav-button{
+    margin-left: 24px;
+    border-radius: 8px;
+    border: 2px solid #136F63;
+    padding:18px 24px 18px 24px;
+    color: #136F63;
+    background-color: white;
+}
+#gs{
+    font-weight: bold;
+    background-color: #136F63;
+    color: white;
+}
+
+.hero{
+    background: url("/static/Images/Group 39529 (1).png");
+    height: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.lower-first{
+    display:flex;
+    color:#136F63
+}
+
+.one{
+    width: 429px;
+    height: 510.47px;
+    margin-left: 89px;
+}
+
+.two{
+    width: 503.49px;
+    height: 193px;
+    margin-bottom: 113px;
+}
+.three{
+    width: 477px;
+    height: 198px;
+}

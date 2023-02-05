@@ -1,0 +1,42 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Fallen Leaf</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{% static 'blog/styles.css' %}" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-hero">
+                <div>
+                    <img class="logo" src="static\Images\Logo Style Guide Top.jpg" >
+                </div>
+                <div style="padding-right: 33px;">
+                    <a href="{% url 'home'%}" style="text-decoration: none;"><p1 class="para">Home</p1></a>
+                </div>
+                <div style="padding-right: 33px;">
+                    <a href="{% url 'about' %}" style="text-decoration: none;"><p1 class="para">About</p1></a>
+                </div>
+                <div style="padding-right: 33px;">
+                    <a href="{% url 'trending' %}" style="text-decoration: none;"><p1 class="para">Trending Blogs</p1></a>
+                </div>
+                <div>
+                    <a href="{% url 'contact' %}" style="text-decoration: none;"><p1 class="para" style="text-decoration:none;">Contact</p1></a>
+                </div>
+                <button class="nav-button"><a href="{%url 'login'%}" style="text-decoration: none;color:#136F63">Login</a></button>
+                <button class="nav-button" id="gs"><a href="{%url 'signup'%}" style="text-decoration: none;color:white">Get started</a></button>
+            </div>
+        </nav> 
+
+        {% block body %}
+        {% endblock %}
+    </body> 
+</html>       
