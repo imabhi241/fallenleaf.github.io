@@ -1,4 +1,4 @@
-#Green Global Hacks
+# Green Global Hacks
 
 ## Fallen Leaf
 A blogging platform where you can earn rewards for your writing!
